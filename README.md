@@ -32,3 +32,53 @@ The aim of this project is to recommend movies similar to a given movie. Users c
 ## Project Structure
 Movie-Recommender-System/
 
+
+---
+
+## Model Information
+
+- **Model Type**: Content-Based Filtering (Cosine Similarity / feature vectors)
+- **Features Considered**:
+  - Movie title
+  - Movie overview / metadata (processed as vectors)
+- **Similarity Metric**: Cosine similarity (precomputed and stored in `similarity.pkl`)
+
+---
+
+## Model Inputs
+
+The following parameter is required for prediction:
+
+- **Movie Title**: Select a movie from the dropdown list.  
+Once selected, the system will generate the top 5 most similar movies.
+
+---
+
+## Streamlit UI
+
+- **Movie Selection**: Users can choose a movie from a dropdown list.  
+- **Recommendations**: Displays top 5 recommended movies with posters fetched from **TMDB API**.  
+- **Interactive Layout**: Recommendations are shown in 5 columns for better visualization.
+
+---
+
+## Technologies Used
+
+- **Python**
+- **Streamlit**
+- **scikit-learn**
+- **pandas**
+- **pickle**
+- **requests (TMDB API)**
+- **Jupyter Notebook**
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/movie-recommender-system.git
+cd movie-recommender-system
+
