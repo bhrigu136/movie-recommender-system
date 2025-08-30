@@ -59,6 +59,7 @@ Once selected, the system will generate the top 5 most similar movies.
 - **Movie Selection**: Users can choose a movie from a dropdown list.  
 - **Recommendations**: Displays top 5 recommended movies with posters fetched from **TMDB API**.  
 - **Interactive Layout**: Recommendations are shown in 5 columns for better visualization.
+👉 **[Click here to try the app](https://movie-recommender-system-527ydffaajaykatymnjsl8.streamlit.app/)**
 
 ---
 
